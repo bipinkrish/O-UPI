@@ -29,9 +29,9 @@ flutter:
   #   - assets/logo.png
 
   fonts:
-    - family: hyperion
+    - family: Hyperion
       fonts:
-        - asset: assets/hyperion/bold.ttf
+        - asset: assets/Hyperion-Bold.ttf
 
 flutter_launcher_icons:
   android: "launcher_icon"

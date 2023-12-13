@@ -2,7 +2,7 @@
 
 class Code {
   static const String main = "*99#";
-  static const String reqMoney = "*99*2*9148751645*1*1*1#";
+  static const String reqMoney = "*99*2#";
   static const String getDetail = "*99*4*3#";
   static const String getBalance = "*99*3#";
 

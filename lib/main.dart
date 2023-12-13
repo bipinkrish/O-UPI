@@ -13,7 +13,11 @@ class Main extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.dark,
       theme: ThemeData.from(
-          colorScheme: const ColorScheme.dark(primary: Colors.teal)),
+        colorScheme: const ColorScheme.dark(primary: Colors.teal),
+         textTheme: const TextTheme(
+          bodyMedium: TextStyle(fontFamily: 'Hyperion'),
+        ),
+      ),
       home: const HomePage(),
     );
   }
